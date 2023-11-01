@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="global.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="center">ESP32 Lighting Control Panel</h1>
+    <div class="flex center mt-2">
+        <a href="/mode/1"><input type="button" class="button mx-1 p-1" value="Mode 1"></a>
+        <a href="/mode/2"><input type="button" class="button mx-1 p-1" value="Mode 2"></a>
+        <a href="/mode/3"><input type="button" class="button mx-1 p-1" value="Mode 3"></a>
+        <a href="/mode/4"><input type="button" class="button mx-1 p-1" value="Mode 4"></a>
+        <a href="/mode/5"><input type="button" class="button mx-1 p-1" value="Mode 5"></a>
+    </div>
+    <p class="center colourPickerLabel">Colour Selector</p>
+    <input type="color" name="Colour Theme" id="colourPicker" class="center" value="#BB00FF">
+    <div class="center">
+        <input type="button" class="button p-1" value="Submit Colour">
+    </div>
+</body>
+</html>
